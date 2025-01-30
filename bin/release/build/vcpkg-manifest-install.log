@@ -1,0 +1,106 @@
+Fetching registry information from https://github.com/microsoft/vcpkg (HEAD)...
+Detecting compiler hash for triplet x64-linux...
+Compiler found: /usr/bin/c++
+The following packages will be built and installed:
+  * dbus[core,systemd]:x64-linux@1.15.8#5 -- /home/sambernau/.cache/vcpkg/registries/git-trees/ce28359a2d828a06b421d8a7b3841f83d98f0ed4
+  * expat:x64-linux@2.6.4 -- /home/sambernau/.cache/vcpkg/registries/git-trees/97dd7e516104f330e1bb5eafff10852211dbd2df
+    fmt:x64-linux@11.0.2#1 -- /home/sambernau/.cache/vcpkg/registries/git-trees/07a73a7565e5de9eb42e90c16c133bdfdfebbcda
+  * gperf:x64-linux@3.1#6 -- /home/sambernau/.cache/vcpkg/registries/git-trees/590e19515bff5b0abc6d9f73ba20a19a71555a32
+  * libcap:x64-linux@2.73 -- /home/sambernau/.cache/vcpkg/registries/git-trees/958892a0b06a8065844bcf29104e85f46b0cd743
+  * liblzma:x64-linux@5.6.3 -- /home/sambernau/.cache/vcpkg/registries/git-trees/b5e5694620b41a4d668390e5d14fa2326e0afdc3
+  * libmount:x64-linux@2.40 -- /home/sambernau/.cache/vcpkg/registries/git-trees/e78ea57cae347c42d9b7cdc4d65c521f229e0ed4
+  * libpng:x64-linux@1.6.45 -- /home/sambernau/.cache/vcpkg/registries/git-trees/081166e70f56cd851b212f93a9ee5531d58fb9b9
+  * libsystemd:x64-linux@256.4 -- /home/sambernau/.cache/vcpkg/registries/git-trees/03b20e5c1a908db5d38dd3fad3fa074c10e6b04b
+  * libxcrypt:x64-linux@4.4.36#2 -- /home/sambernau/.cache/vcpkg/registries/git-trees/825ff0426ce377f1e386f7effd1f3dfb5e218a64
+  * lz4:x64-linux@1.10.0 -- /home/sambernau/.cache/vcpkg/registries/git-trees/4f01eec10f515a428e914107c5188366380f8dd9
+    sdl2[core,dbus,ibus,wayland,x11]:x64-linux@2.30.11 -- /home/sambernau/.cache/vcpkg/registries/git-trees/1e389b5adbd325a0aaf1fb3652c430eca4be966f
+    sdl2-image:x64-linux@2.8.4 -- /home/sambernau/.cache/vcpkg/registries/git-trees/3190ce60e37965fc1692fc28d0d4a307bf8b8636
+  * vcpkg-cmake:x64-linux@2024-04-23 -- /home/sambernau/.cache/vcpkg/registries/git-trees/e74aa1e8f93278a8e71372f1fa08c3df420eb840
+  * vcpkg-cmake-config:x64-linux@2024-05-23 -- /home/sambernau/.cache/vcpkg/registries/git-trees/97a63e4bc1a17422ffe4eff71da53b4b561a7841
+  * vcpkg-cmake-get-vars:x64-linux@2024-09-22 -- /home/sambernau/.cache/vcpkg/registries/git-trees/f23148add155147f3d95ae622d3b0031beb25acf
+  * vcpkg-tool-meson:x64-linux@1.6.1 -- /home/sambernau/.cache/vcpkg/registries/git-trees/dc948c67d7f1359319f801078422e996b0a89fd0
+  * zlib:x64-linux@1.3.1 -- /home/sambernau/.cache/vcpkg/registries/git-trees/3f05e04b9aededb96786a911a16193cdb711f0c9
+  * zstd:x64-linux@1.5.6 -- /home/sambernau/.cache/vcpkg/registries/git-trees/796171d4d359b6786b8e1380fb6da8e677a9087b
+Additional packages (*) will be modified to complete this operation.
+Restored 19 package(s) from /home/sambernau/.cache/vcpkg/archives in 103 ms. Use --debug to see more details.
+Installing 1/19 vcpkg-cmake-config:x64-linux@2024-05-23...
+Elapsed time to handle vcpkg-cmake-config:x64-linux: 2.42 ms
+vcpkg-cmake-config:x64-linux package ABI: e8093a3e9e50cca56099df63e6f900a509c543ca1a08ea108b633041cd038e14
+Installing 2/19 vcpkg-cmake:x64-linux@2024-04-23...
+Elapsed time to handle vcpkg-cmake:x64-linux: 2.61 ms
+vcpkg-cmake:x64-linux package ABI: 0c6ec610681503f31bceb05cceca87c9472ebf3a83510635716a15c21b3521dc
+Installing 3/19 fmt:x64-linux@11.0.2#1...
+Elapsed time to handle fmt:x64-linux: 21.3 ms
+fmt:x64-linux package ABI: 37a957e00113bd2a8099172200e1f0d4a8b3dd2fb4f198876c60cbdfc83d1d3e
+Installing 4/19 zstd:x64-linux@1.5.6...
+Elapsed time to handle zstd:x64-linux: 42.9 ms
+zstd:x64-linux package ABI: 1e23d35a5e1709cd4a271ee946d43ea2e0db802d24f9dcbc6e586804c98e998f
+Installing 5/19 vcpkg-cmake-get-vars:x64-linux@2024-09-22...
+Elapsed time to handle vcpkg-cmake-get-vars:x64-linux: 2.58 ms
+vcpkg-cmake-get-vars:x64-linux package ABI: ab50d7a1b372e5410fca60ae93a046e77a403fcbf1769d5b3be607aa3c29a824
+Installing 6/19 vcpkg-tool-meson:x64-linux@1.6.1...
+Elapsed time to handle vcpkg-tool-meson:x64-linux: 3.35 ms
+vcpkg-tool-meson:x64-linux package ABI: 9a7f5676d6658324d3f8564284bba081866cd21bf70b7055d339d223d65984f0
+Installing 7/19 lz4:x64-linux@1.10.0...
+Elapsed time to handle lz4:x64-linux: 12.2 ms
+lz4:x64-linux package ABI: 712a4b112447dad3f25d6e39f4b5bd31731b9c23e446b8ae1c3029a2983e8e92
+Installing 8/19 libxcrypt:x64-linux@4.4.36#2...
+Elapsed time to handle libxcrypt:x64-linux: 11.7 ms
+libxcrypt:x64-linux package ABI: e537b5e2ec666689971bdabef1445a9f35a82ce6f6d3835393b95cb2c0c6d2e3
+Installing 9/19 libmount:x64-linux@2.40...
+Elapsed time to handle libmount:x64-linux: 38.8 ms
+libmount:x64-linux package ABI: 8f3197b2e95e80266f605e0d1a3cecc5dfee7e87c6652d309bb57ce457f6b87b
+Installing 10/19 liblzma:x64-linux@5.6.3...
+Elapsed time to handle liblzma:x64-linux: 23.3 ms
+liblzma:x64-linux package ABI: 855e499e30d628994bae01ed90fa45e574c8663c7a836ee1cfa909bb9171c20c
+Installing 11/19 libcap:x64-linux@2.73...
+Elapsed time to handle libcap:x64-linux: 6.38 ms
+libcap:x64-linux package ABI: 6202b73469e68a94f4f2a33e77e5521eec258e53ace5f5c9c2e39f1824316825
+Installing 12/19 gperf:x64-linux@3.1#6...
+Elapsed time to handle gperf:x64-linux: 3.48 ms
+gperf:x64-linux package ABI: 401d4fcf392451686139c8285b50ad5c4486562c4f1142bbb8a37ca71d59f39d
+Installing 13/19 libsystemd:x64-linux@256.4...
+Elapsed time to handle libsystemd:x64-linux: 77.5 ms
+libsystemd:x64-linux package ABI: 99319764ee5f7336465f6d8a2719fa0f61898d48e2531c717f5964777d3a5dc0
+Installing 14/19 expat:x64-linux@2.6.4...
+Elapsed time to handle expat:x64-linux: 10 ms
+expat:x64-linux package ABI: 4b2e2e3edcd57d823050e265d1902b67b03816722c99a0882c95562dc34b4679
+Installing 15/19 dbus[core,systemd]:x64-linux@1.15.8#5...
+Elapsed time to handle dbus:x64-linux: 87 ms
+dbus:x64-linux package ABI: 864091952390f956c913c0bc2c72b71042abf270897d8b028f56df69f7682bc0
+Installing 16/19 sdl2[core,dbus,ibus,wayland,x11]:x64-linux@2.30.11...
+Elapsed time to handle sdl2:x64-linux: 131 ms
+sdl2:x64-linux package ABI: 9da31342c0cb69647eb644d7d660b38971da3a6aba03f96923f0e8b71246563e
+Installing 17/19 zlib:x64-linux@1.3.1...
+Elapsed time to handle zlib:x64-linux: 7.16 ms
+zlib:x64-linux package ABI: fcec9d45f69f90c9fadc60f104d58afa2214c9c3435ec97dc984906e43d9bc8e
+Installing 18/19 libpng:x64-linux@1.6.45...
+Elapsed time to handle libpng:x64-linux: 17 ms
+libpng:x64-linux package ABI: 44fca2055656d617855bd3087cbae200010445f022901842aa0a7a50ddad9bd8
+Installing 19/19 sdl2-image:x64-linux@2.8.4...
+Elapsed time to handle sdl2-image:x64-linux: 11.8 ms
+sdl2-image:x64-linux package ABI: 053bb2050224ad0168be21eeeea4e6891ad083e0c3a491a654556a761e64fab1
+Total install time: 519 ms
+The package fmt provides CMake targets:
+
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt)
+
+    # Or use the header-only version
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt-header-only)
+
+sdl2 provides CMake targets:
+
+    find_package(SDL2 CONFIG REQUIRED)
+    target_link_libraries(main
+        PRIVATE
+        $<TARGET_NAME_IF_EXISTS:SDL2::SDL2main>
+        $<IF:$<TARGET_EXISTS:SDL2::SDL2>,SDL2::SDL2,SDL2::SDL2-static>
+    )
+
+sdl2-image provides CMake targets:
+
+    find_package(SDL2_image CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE $<IF:$<TARGET_EXISTS:SDL2_image::SDL2_image>,SDL2_image::SDL2_image,SDL2_image::SDL2_image-static>)
+

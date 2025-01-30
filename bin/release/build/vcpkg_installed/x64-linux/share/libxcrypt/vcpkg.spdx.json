@@ -1,0 +1,125 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/libxcrypt-x64-linux-4.4.36#2-a16387fa-4f1a-4e38-9cbb-975967d6290b",
+  "name": "libxcrypt:x64-linux@4.4.36#2 e537b5e2ec666689971bdabef1445a9f35a82ce6f6d3835393b95cb2c0c6d2e3",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2025-01-29-a75ad067f470c19f030361064e32a2585392bee2"
+    ],
+    "created": "2025-01-30T01:45:08Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "libxcrypt",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "4.4.36#2",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@825ff0426ce377f1e386f7effd1f3dfb5e218a64",
+      "homepage": "https://github.com/besser82/libxcrypt",
+      "licenseConcluded": "LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "libxcrypt is a modern library for one-way hashing of passwords. On Linux-based systems, by default libxcrypt will be binary backward compatible with the libcrypt.so.1 shipped as part of the GNU C Library.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "libxcrypt:x64-linux",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "e537b5e2ec666689971bdabef1445a9f35a82ce6f6d3835393b95cb2c0c6d2e3",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-0",
+      "name": "besser82/libxcrypt",
+      "downloadLocation": "git+https://github.com/besser82/libxcrypt@v4.4.36",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "61e5e393654f37775457474d4170098314879ee79963d423c1c461e80dc5dc74f0c161dd8754f016ce96109167be6c580ad23994fa1d2c38c54b96e602f3aece"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "besser82-libxcrypt-7fc153170ea6c2938c0392794778de7ec995f8f9.patch",
+      "packageFileName": "besser82-libxcrypt-7fc153170ea6c2938c0392794778de7ec995f8f9.patch",
+      "downloadLocation": "https://github.com/besser82/libxcrypt/commit/7fc153170ea6c2938c0392794778de7ec995f8f9.patch?full_index=1",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "55f4709c52f6d0a29f159348821c06e3f5df0fae83f487b7a52ce61cd3f6a3a0f48023159fb7029d0a5a3decee36ac6a429cc91e23a83996a3265d681fa11929"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": ".//home/sambernau/.cache/vcpkg/registries/git-trees/825ff0426ce377f1e386f7effd1f3dfb5e218a64/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3bedbcab94fa0912480d6246f7a8a53b9861a6aef32462c948bf1470c13743a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/sambernau/.cache/vcpkg/registries/git-trees/825ff0426ce377f1e386f7effd1f3dfb5e218a64/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e26e128eb2308c36fcf59019ebf1ee8c509011550f9c81f0d220b666d2d31820"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

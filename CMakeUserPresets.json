@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "configurePresets": [
+      {
+	"name":"default",
+	"inherits": ["debug","release"],
+        "environment": {
+          "VCPKG_ROOT": "/home/sambernau/bin/vc/vcpkg"
+        }
+      }
+    ]
+  }
+

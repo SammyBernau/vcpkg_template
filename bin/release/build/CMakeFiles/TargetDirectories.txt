@@ -1,0 +1,3 @@
+/mnt/Mix/programming/SDL/vcpkg_template/bin/release/build/CMakeFiles/main.dir
+/mnt/Mix/programming/SDL/vcpkg_template/bin/release/build/CMakeFiles/edit_cache.dir
+/mnt/Mix/programming/SDL/vcpkg_template/bin/release/build/CMakeFiles/rebuild_cache.dir
