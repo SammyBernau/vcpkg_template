@@ -5,7 +5,7 @@
 	"name":"default",
 	"inherits": ["debug","release"],
         "environment": {
-          "VCPKG_ROOT": "/home/sambernau/bin/vc/vcpkg"
+          "VCPKG_ROOT": "<path_to_vcpkg_installation>"
         }
       }
     ]

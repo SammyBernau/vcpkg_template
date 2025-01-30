@@ -27,7 +27,7 @@ cmake --preset=debug
 
 Outline
 ```
-cmake --build <path_to_preset_build_director>
+cmake --build <path_to_preset_build_dir>
 ```
 
 Example...
@@ -38,7 +38,8 @@ cmake --build bin/debug/build
 ### Running
 
 Outline...
-```./<path_to_exec_in_newly_built_dir>
+```
+./<path_to_exec_in_newly_built_dir>
 ```
 
 Example...
@@ -57,7 +58,7 @@ In order for vcpkg to work properly 'VCPKG_ROOT' in 'CMakeUsersPresets.json' sho
 ## Useful sources
 - [What is vcpkg?](https://learn.microsoft.com/en-us/vcpkg/get_started/overview)
 - [vcpkg dependency library](https://vcpkg.link/)
-- [vcpkg setup documentation] (https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-bash)
+- [vcpkg setup documentation](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-bash)
 
 
 ## Notes

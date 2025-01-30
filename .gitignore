@@ -1,0 +1,3 @@
+# Ignore build folders
+/bin/debug/build/
+/bin/release/build/
