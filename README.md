@@ -63,6 +63,7 @@ In order for vcpkg to work properly 'VCPKG_ROOT' in 'CMakeUsersPresets.json' sho
 
 ## Notes
 
-Its been some time since I have touched a compiled language like C++ so I thought putting together a template would help myself remember. I also realized that it might also help others whoare new to vcpkg or perhaps just getting back into it and need a quick refresher. 
+It's been some time since I have touched a compiled language like C++ (I hail from JVM land), so I thought putting together a template would help myself regain familiarity. I also realize that others might benefit from a template/refresher, so feel free to use for whatever!
+
 
 ### Author: Sam Bernau
